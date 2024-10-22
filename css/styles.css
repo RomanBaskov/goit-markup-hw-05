@@ -537,6 +537,7 @@ color: #f4f4fd;
 }
 
 .subscribtion-container {
+    display: flex;
     margin-left: auto;
 }
 
