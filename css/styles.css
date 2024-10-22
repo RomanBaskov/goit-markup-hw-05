@@ -489,8 +489,11 @@ color: #f4f4fd;
     width: 264px;
 }
 
-.social-block
-
+.social-block{
+    align-items: baseline;
+    margin-right: 120;
+}
+ 
 .social-text{
     font-weight: 500;
     line-height: 1.5;
@@ -545,8 +548,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribtion-container {
-    display: flex;
     margin-left: auto;
+   
 }
 
 .subsc-text {
