@@ -489,10 +489,7 @@ color: #f4f4fd;
     width: 264px;
 }
 
-.social-block{
-    align-items: baseline;
-    margin-right: 120;
-}
+.social-block
 
 .social-text{
     font-weight: 500;
