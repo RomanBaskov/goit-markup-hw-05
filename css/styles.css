@@ -446,6 +446,14 @@ display: block;
     padding: 100px 0;
 }
 
+.container-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo-text-footer {
+    margin-right: 120px;
+}
 .webstudio-second{
     margin-right: 120px;
 }
@@ -456,16 +464,16 @@ display: block;
 }
 
 .footer-logo{
-    display: inline-block;
-    margin-bottom: 16px;
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+    font-family: "Raleway", sans-serif;
+    gap: 0px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .text{
@@ -473,10 +481,12 @@ color: #f4f4fd;
 }
 
 .footer-text{
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#F4F4FD;
-    max-width: 264px;
+    color: #f4f4fd;
+    width: 264px;
 }
 
 .social-block{
@@ -489,12 +499,15 @@ color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    font-size: 16px;
     margin-bottom: 16px;
 }
 
 .footer-list-icons {
     display: flex;
     gap: 16px;
+    justify-content: center;
+    margin-top: 8px;
 }
 
 .footer-list-items {
