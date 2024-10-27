@@ -866,8 +866,10 @@ overflow: hidden;
 }
 
 .modal-link {
-    color: #4d5ae5;
-    text-decoration: underline;
+        line-height: 1.33;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #4d5ae5;
 }
 
 .textarea-comment {
