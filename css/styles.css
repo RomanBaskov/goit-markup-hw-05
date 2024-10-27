@@ -841,7 +841,7 @@ overflow: hidden;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    
+       
 }
 
 .checkbox-icon {
@@ -856,6 +856,7 @@ overflow: hidden;
     justify-content: center;
     fill: transparent;
     border-radius: 2px;
+    margin-right: 8px;
 }
 
 
